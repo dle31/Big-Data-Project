@@ -1,0 +1,167 @@
+CREATE EXTERNAL TABLE IF NOT EXISTS citibikes1
+(tripduration string,
+starttime string,
+stoptime string,
+startstationid string,
+startstationname string,
+startstationlatitude string,
+startstationlongitude string,
+endstationid string,
+endstationname string,
+endstationlatitude string,
+endstationlongitude string,
+bikeid string,
+usertype string,
+birthyear string,
+gender string)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+TBLPROPERTIES("skip.header.line.count"="1");
+
+CREATE EXTERNAL TABLE IF NOT EXISTS citibikes2
+(tripduration string,
+starttime string,
+stoptime string,
+startstationid string,
+startstationname string,
+startstationlatitude string,
+startstationlongitude string,
+endstationid string,
+endstationname string,
+endstationlatitude string,
+endstationlongitude string,
+bikeid string,
+usertype string,
+birthyear string,
+gender string)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+TBLPROPERTIES("skip.header.line.count"="1");
+
+CREATE EXTERNAL TABLE IF NOT EXISTS citibikes3
+(tripduration string,
+starttime string,
+stoptime string,
+startstationid string,
+startstationname string,
+startstationlatitude string,
+startstationlongitude string,
+endstationid string,
+endstationname string,
+endstationlatitude string,
+endstationlongitude string,
+bikeid string,
+usertype string,
+birthyear string,
+gender string)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+TBLPROPERTIES("skip.header.line.count"="1");
+
+CREATE EXTERNAL TABLE IF NOT EXISTS citibikes4
+(tripduration string,
+starttime string,
+stoptime string,
+startstationid string,
+startstationname string,
+startstationlatitude string,
+startstationlongitude string,
+endstationid string,
+endstationname string,
+endstationlatitude string,
+endstationlongitude string,
+bikeid string,
+usertype string,
+birthyear string,
+gender string)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+TBLPROPERTIES("skip.header.line.count"="1");
+
+CREATE EXTERNAL TABLE IF NOT EXISTS citibikes5
+(tripduration string,
+starttime string,
+stoptime string,
+startstationid string,
+startstationname string,
+startstationlatitude string,
+startstationlongitude string,
+endstationid string,
+endstationname string,
+endstationlatitude string,
+endstationlongitude string,
+bikeid string,
+usertype string,
+birthyear string,
+gender string)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+TBLPROPERTIES("skip.header.line.count"="1");
+
+CREATE EXTERNAL TABLE IF NOT EXISTS citibikes6
+(tripduration string,
+starttime string,
+stoptime string,
+startstationid string,
+startstationname string,
+startstationlatitude string,
+startstationlongitude string,
+endstationid string,
+endstationname string,
+endstationlatitude string,
+endstationlongitude string,
+bikeid string,
+usertype string,
+birthyear string,
+gender string)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+TBLPROPERTIES("skip.header.line.count"="1");
+
+CREATE EXTERNAL TABLE IF NOT EXISTS citibikes7
+(tripduration string,
+starttime string,
+stoptime string,
+startstationid string,
+startstationname string,
+startstationlatitude string,
+startstationlongitude string,
+endstationid string,
+endstationname string,
+endstationlatitude string,
+endstationlongitude string,
+bikeid string,
+usertype string,
+birthyear string,
+gender string)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+TBLPROPERTIES("skip.header.line.count"="1");
+
+CREATE EXTERNAL TABLE IF NOT EXISTS citibikes8
+(tripduration string,
+starttime string,
+stoptime string,
+startstationid string,
+startstationname string,
+startstationlatitude string,
+startstationlongitude string,
+endstationid string,
+endstationname string,
+endstationlatitude string,
+endstationlongitude string,
+bikeid string,
+usertype string,
+birthyear string,
+gender string)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+TBLPROPERTIES("skip.header.line.count"="1");

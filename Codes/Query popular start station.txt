@@ -1,0 +1,3 @@
+SELECT startstationname, COUNT(startstationname) AS pop_station1 FROM citibikes1 GROUP BY startstationname ORDER BY popstation1 DESC limit 1;
+
+SELECT startstationname, COUNT(startstationname) AS pop_station2 FROM citibikes2 GROUP BY startstationname ORDER BY popstation2 DESC limit 1;

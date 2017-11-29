@@ -1,0 +1,15 @@
+SELECT gender, COUNT(gender) from citibikes1 GROUP BY gender;
+
+SELECT gender, COUNT(gender) from citibikes2 GROUP BY gender;
+
+SELECT gender, COUNT(gender) from citibikes3 GROUP BY gender;
+
+SELECT gender, COUNT(gender) from citibikes4 GROUP BY gender;
+
+SELECT gender, COUNT(gender) from citibikes5 GROUP BY gender;
+
+SELECT gender, COUNT(gender) from citibikes6 GROUP BY gender;
+
+SELECT gender, COUNT(gender) from citibikes7 GROUP BY gender;
+
+SELECT gender, COUNT(gender) from citibikes8 GROUP BY gender;

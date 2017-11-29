@@ -1,0 +1,15 @@
+SELECT endstationname, COUNT(endstationname) AS pop_station1 FROM citibikes1 GROUP BY endstationname ORDER BY pop_station1 DESC limit 1;
+
+SELECT endstationname, COUNT(endstationname) AS pop_station2 FROM citibikes2 GROUP BY endstationname ORDER BY pop_station2 DESC limit 1;
+
+SELECT endstationname, COUNT(endstationname) AS pop_station3 FROM citibikes3 GROUP BY endstationname ORDER BY pop_station3 DESC limit 1;
+
+SELECT endstationname, COUNT(endstationname) AS pop_station4 FROM citibikes4 GROUP BY endstationname ORDER BY pop_station4 DESC limit 1;
+
+SELECT endstationname, COUNT(endstationname) AS pop_station5 FROM citibikes5 GROUP BY endstationname ORDER BY pop_station5 DESC limit 1;
+
+SELECT endstationname, COUNT(endstationname) AS pop_station6 FROM citibikes6 GROUP BY endstationname ORDER BY pop_station6 DESC limit 1;
+
+SELECT endstationname, COUNT(endstationname) AS pop_station7 FROM citibikes7 GROUP BY endstationname ORDER BY pop_station7 DESC limit 1;
+
+SELECT endstationname, COUNT(endstationname) AS pop_station8 FROM citibikes8 GROUP BY endstationname ORDER BY pop_station8 DESC limit 1;

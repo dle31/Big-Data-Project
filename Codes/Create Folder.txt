@@ -1,0 +1,1 @@
+hdfs dfs -mkdir /user/ttu6/Citibikes/

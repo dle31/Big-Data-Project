@@ -1,0 +1,5 @@
+wget citibikes.zip https://s3.amazonaws.com/tripdata/201307-201402-citibike-tripdata.zip
+
+unzip citibikes.zip
+
+--rename each file to 201402bike, 201401bike, 201312bike, etc

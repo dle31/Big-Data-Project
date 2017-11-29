@@ -1,0 +1,15 @@
+hdfs dfs -put 201307bike /user/ttu6/Citibikes
+
+hdfs dfs -put 201308bike /user/ttu6/Citibikes
+
+hdfs dfs -put 201309bike /user/ttu6/Citibikes
+
+hdfs dfs -put 201310bike /user/ttu6/Citibikes
+
+hdfs dfs -put 201311bike /user/ttu6/Citibikes
+
+hdfs dfs -put 201312bike /user/ttu6/Citibikes
+
+hdfs dfs -put 201401bike /user/ttu6/Citibikes
+
+hdfs dfs -put 201402bike /user/ttu6/Citibikes

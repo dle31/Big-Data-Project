@@ -1,0 +1,15 @@
+LOAD DATA INPATH '/user/ttu6/Citibikes/201402bike' OVERWRITE INTO TABLE citibikes1;
+
+LOAD DATA INPATH '/user/ttu6/Citibikes/201307bike' OVERWRITE INTO TABLE citibikes2;
+
+LOAD DATA INPATH '/user/ttu6/Citibikes/201308bike' OVERWRITE INTO TABLE citibikes3;
+
+LOAD DATA INPATH '/user/ttu6/Citibikes/201309bike' OVERWRITE INTO TABLE citibikes4;
+
+LOAD DATA INPATH '/user/ttu6/Citibikes/201310bike' OVERWRITE INTO TABLE citibikes5;
+
+LOAD DATA INPATH '/user/ttu6/Citibikes/201311bike' OVERWRITE INTO TABLE citibikes6;
+
+LOAD DATA INPATH '/user/ttu6/Citibikes/201312bike' OVERWRITE INTO TABLE citibikes7;
+
+LOAD DATA INPATH '/user/ttu6/Citibikes/201401bike' OVERWRITE INTO TABLE citibikes8;
