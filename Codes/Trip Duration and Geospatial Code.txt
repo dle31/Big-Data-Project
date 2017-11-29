@@ -1,0 +1,31 @@
+---------Trip Duration (in seconds)------------
+data = LOAD '/user/shoang5/citi/' USING PigStorage(',') AS 
+(tripduration:chararray, starttime:chararray, stoptime:chararray,
+start_station_id:int, start_station_name:chararray, start_station_latitude:double, 
+start_station_longitude:double, end_station_id:int, end_station_name:chararray,
+end_station_latitude:double, end_station_longitude:double, bikeid:int, usertype:int, birth_year:int,
+gender:int);
+
+----First 25 records of 2013-14-----
+data_subset = LIMIT data 25;
+
+------SELECT SPECIFIC COLUMNS FROM A RELATION
+specific_columns = FOREACH data_subset GENERATE start_station_name, starttime, stoptime, tripduration;
+
+---STORE RELATIONSHIP DATA INTO A HDFS FILE
+STORE specific_columns INTO '/user/shoang5/duration' USING PigStorage(',');
+
+
+------------GEOSPACIAL ANALYSIS---------
+data = LOAD '/user/shoang5/citi/' USING PigStorage(',') AS 
+(tripduration:chararray, starttime:chararray, stoptime:chararray,
+start_station_id:int, start_station_name:chararray, start_station_latitude:chararray, 
+start_station_longitude:chararray, end_station_id:int, end_station_name:chararray,
+end_station_latitude:double, end_station_longitude:double, bikeid:int, usertype:int, birth_year:int,
+gender:int);
+
+distinct_start = DISTINCT data;
+
+specific_columns = FOREACH data GENERATE start_station_name, start_station_latitude, start_station_longitude;
+
+STORE specific_columns INTO '/user/shoang5/geoStart' USING PigStorage(',');
